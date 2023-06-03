@@ -1,0 +1,21 @@
+@host = http://localhost:4000/api/capitulo
+
+###
+GET {{host}}/654b0d71-f8e8-4e15-b2a9-1ebe0d12662d?limite=5&pagina=1
+
+
+###
+POST {{host}}
+Content-Type: application/json
+
+{
+    "titulo":"te"
+}
+### agregar s
+
+POST {{host}}/agregar/654b0d71-f8e8-4e15-b2a9-1ebe0d12662d
+Content-Type: application/json
+
+{
+    "url":"https://tunovelaligera.com/novelas/wddg-tnl/?lcp_page0=55"
+}

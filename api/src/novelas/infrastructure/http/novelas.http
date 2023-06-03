@@ -1,0 +1,25 @@
+@host = http://localhost:4000/api/novela
+
+###
+GET {{host}}
+
+
+####
+
+GET {{host}}/ebbe701b-c7ae-4348-ba69-10bf89b1d623
+
+###
+POST {{host}}
+Content-Type: application/json
+
+{
+    "titulo":"te"
+}
+### agregar 
+
+POST {{host}}/agregar
+Content-Type: application/json
+
+{
+    "url":"https://tunovelaligera.com/novelas/de-hecho-soy-un-gran-cultivador/"
+}
